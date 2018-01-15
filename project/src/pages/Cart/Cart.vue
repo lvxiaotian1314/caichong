@@ -1,5 +1,5 @@
 <template>
   <div>
-      这是商品分类页面
+      这是购物车
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
   <div>
-      这是商品分类页面
+      这是百科
   </div>
 </template>
