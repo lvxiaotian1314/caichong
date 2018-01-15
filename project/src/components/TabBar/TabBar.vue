@@ -25,15 +25,16 @@ export default {
 <style lang="less" scoped>
     .tabBar{
         position: absolute;
-        bottom:0;
-        height: 4.7rem;
+        bottom:1px;
+        height: 47px;
         left: 0;
         right:0;
         display: flex;
         background:#eee;
         a{
           flex: 1;
-          padding-top:3.2rem;
+          padding-top:32px;
+          font-size: 14px;
         }
         a.mine{
           flex: 1.8
