@@ -6,7 +6,7 @@ import router from './router'
 
 
 //引入通用的css
-//import "@/styles/index.less"
+import "@/styles/index.less"
 //引入更新rem的js
 import "@/styles/reset.js"
 

@@ -1,38 +1,40 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/pages/Home/Home'
-import Category from '@/pages/Category/Category'
-import Mine from '@/pages/Mine/Mine'
-import Cart from '@/pages/Cart/Cart'
-import Baike from '@/pages/Baike/Baike'
+//页面，按需动态加载
+//首页
+const Home=resolve =>require(['../pages/Home/Home.vue'],resolve)
+//闪动超市
+const Category=resolve =>require(['../pages/Category/Category.vue'],resolve)
+//购物车
+const Cart=resolve =>require(['../pages/Cart/Cart.vue'],resolve)
+//我的菜虫
+const Mine=resolve =>require(['../pages/Mine/Mine.vue'],resolve)
+//百科
+//我的菜虫
+const Baike=resolve =>require(['../pages/Baike/Baike.vue'],resolve)
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Home',
-      component: Home
+      path:'/',
+      component:Home
     },
     {
-      path: '/category',
-      name: 'Category',
-      component: Category
+      path:'/Category',
+      component:Category
     },
     {
-      path: '/Mine',
-      name: 'Mine',
-      component: Mine
-    },
-    {
-      path:'/Baike',
-      name:'Baike',
-      component:Baike
+      path:'/Mine',
+      component:Mine
     },
     {
       path:'/Cart',
-      name:'Cart',
       component:Cart
+    },
+    {
+      path:'/Baike',
+      component:Baike
     }
   ]
 })

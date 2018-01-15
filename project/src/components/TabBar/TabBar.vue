@@ -6,7 +6,7 @@
       <router-link tag="a" to="/Category">
         <span></span>分类
       </router-link>
-      <router-link tag="a" to="/Mine">
+      <router-link class="mine" tag="a" to="/Mine">
         <span></span>我的菜虫
       </router-link>
       <router-link tag="a" to="/Cart">
@@ -22,7 +22,7 @@ export default {
   
 }
 </script>
-<style scoped>
+<style lang="less" scoped>
     .tabBar{
         position: absolute;
         bottom:0;
@@ -30,8 +30,13 @@ export default {
         left: 0;
         right:0;
         display: flex;
-    }
-    .tabBar>a{
-        flex:1;
+        background:#eee;
+        a{
+          flex: 1;
+          padding-top:3.2rem;
+        }
+        a.mine{
+          flex: 1.8
+        }
     }
 </style>
