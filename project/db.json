@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category_img": "http://dummyimage.com/349x349/83f279/号&text=5)"
+    },
+    {
+      "id": 2,
+      "category_img": "http://dummyimage.com/349x349/f279a7/热&text=5)"
+    },
+    {
+      "id": 3,
+      "category_img": "http://dummyimage.com/349x349/79caf2/是&text=5)"
+    },
+    {
+      "id": 4,
+      "category_img": "http://dummyimage.com/349x349/edf279/美&text=5)"
+    }
+  ],
+  "bannars": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/d379f2/孟娟&text=5)"
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/79f2af/万静&text=5)"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/f28c79/熊秀兰&text=5)"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/7989f2/钱洋&text=5)"
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/acf279/谭秀英&text=5)"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/f279cf/杨霞&text=5)"
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/79f2f1/贾娟&text=5)"
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/f2ce79/郝芳&text=5)"
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "img": "http://dummyimage.com/720x355/aa79f2/赖明&text=5)"
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/79f287/乔艳&text=5)"
+    },
+    {
+      "id": 11,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/f2798e/何平&text=5)"
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/79b1f2/于超&text=5)"
+    },
+    {
+      "id": 13,
+      "categoryId": 1,
+      "img": "http://dummyimage.com/720x355/d4f279/曾丽&text=5)"
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/ec79f2/彭秀兰&text=5)"
+    }
+  ]
+}

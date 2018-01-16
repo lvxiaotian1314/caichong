@@ -36,8 +36,9 @@ export default {
             background-image: url('./images/msg-icon.png');
             width:25px;
             height:19px;
-            margin-top:14px;
-            margin-left:20px;
+            position: absolute;
+            right:.775rem;
+            top:11px;
         }
         form{
             display: inline-block;
@@ -60,6 +61,7 @@ export default {
                 outline: none;
                 background:red;
                 border:0;
+                width:3.533333rem;
                 height: 28px;
                 margin-left:10px;
                 color:#fff;

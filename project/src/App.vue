@@ -7,7 +7,15 @@
 
 <script>
 import tabBar from '@/components/TabBar/TabBar.vue'
+import api from '@/api'
 export default {
+  created(){
+    //获取分类数据并存本地
+    let that=this;
+    this.$http.get(api.host+"/categories").then(res=>{
+      that.$store.commit('SAVE_CATEGORIES',res.data)
+    })
+  },
   name: 'App',
   components:{
     tabBar

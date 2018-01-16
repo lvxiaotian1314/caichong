@@ -1,0 +1,20 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "category_img": "http://m.caichongwang.com/Content/images/main-ad1.jpg"
+      },
+      {
+        "id": 2,
+        "category_img": "http://m.caichongwang.com/Content/images/main-ad2.jpg"
+      },
+      {
+        "id": 3,
+        "category_img": "http://m.caichongwang.com/Content/images/main-ad3.jpg"
+      },
+      {
+        "id": 4,
+        "category_img": "http://m.caichongwang.com/Content/images/main-ad4.jpg"
+      }
+    ]
+  }
