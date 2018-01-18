@@ -2,91 +2,558 @@
   "categories": [
     {
       "id": 1,
-      "category_img": "http://dummyimage.com/349x349/83f279/号&text=5)"
+      "category_img": "http://m.caichongwang.com/Content/images/main-ad1.jpg"
     },
     {
       "id": 2,
-      "category_img": "http://dummyimage.com/349x349/f279a7/热&text=5)"
+      "category_img": "http://m.caichongwang.com/Content/images/main-ad2.jpg"
     },
     {
       "id": 3,
-      "category_img": "http://dummyimage.com/349x349/79caf2/是&text=5)"
+      "category_img": "http://m.caichongwang.com/Content/images/main-ad3.jpg"
     },
     {
       "id": 4,
-      "category_img": "http://dummyimage.com/349x349/edf279/美&text=5)"
+      "category_img": "http://m.caichongwang.com/Content/images/main-ad4.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 3,
+      "product_price": 179.46,
+      "product_name": "因土己变",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/ba79f2&text=丁平",
+      "product_unit": 18,
+      "product_hot": 887
+    },
+    {
+      "id": 2,
+      "categoryId": 3,
+      "product_price": 232.15,
+      "product_name": "千身路",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f297&text=汤娟",
+      "product_unit": 8,
+      "product_hot": 552
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "product_price": 494.13,
+      "product_name": "几按热",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2797e&text=田平",
+      "product_unit": 17,
+      "product_hot": 162
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "product_price": 302.68,
+      "product_name": "反世指",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79a1f2&text=黎霞",
+      "product_unit": 9,
+      "product_hot": 80
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "product_price": 430.47,
+      "product_name": "信员到",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/c4f279&text=黎娟",
+      "product_unit": 4,
+      "product_hot": 694
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "product_price": 47.43,
+      "product_name": "世没对原强",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f279e8&text=高涛",
+      "product_unit": 5,
+      "product_hot": 59
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "product_price": 423.41,
+      "product_name": "们山矿建式",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2d8&text=金静",
+      "product_unit": 4,
+      "product_hot": 865
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "product_price": 326.78,
+      "product_name": "入带写",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2b579&text=贺杰",
+      "product_unit": 4,
+      "product_hot": 488
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "product_price": 72.55,
+      "product_name": "么制多",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/9279f2&text=薛明",
+      "product_unit": 14,
+      "product_hot": 536
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "product_price": 223.67,
+      "product_name": "带收维题",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/83f279&text=毛杰",
+      "product_unit": 11,
+      "product_hot": 723
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "product_price": 259.45,
+      "product_name": "际写所采",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f279a6&text=邓秀兰",
+      "product_unit": 3,
+      "product_hot": 72
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "product_price": 230.96,
+      "product_name": "位观解传或",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79caf2&text=潘磊",
+      "product_unit": 6,
+      "product_hot": 739
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "product_price": 151.05,
+      "product_name": "建很现农",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/edf279&text=贺桂英",
+      "product_unit": 14,
+      "product_hot": 924
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "product_price": 235.54,
+      "product_name": "科约整厂",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/d379f2&text=唐磊",
+      "product_unit": 15,
+      "product_hot": 300
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "product_price": 300.13,
+      "product_name": "人难素",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2b0&text=谢秀英",
+      "product_unit": 12,
+      "product_hot": 563
+    },
+    {
+      "id": 16,
+      "categoryId": 1,
+      "product_price": 427.77,
+      "product_name": "达步文",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f28d79&text=吴超",
+      "product_unit": 11,
+      "product_hot": 666
+    },
+    {
+      "id": 17,
+      "categoryId": 1,
+      "product_price": 38.87,
+      "product_name": "几我往",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/7988f2&text=邓霞",
+      "product_unit": 6,
+      "product_hot": 200
+    },
+    {
+      "id": 18,
+      "categoryId": 2,
+      "product_price": 106.84,
+      "product_name": "快拉新",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/abf279&text=万娜",
+      "product_unit": 19,
+      "product_hot": 413
+    },
+    {
+      "id": 19,
+      "categoryId": 2,
+      "product_price": 157.73,
+      "product_name": "重技安准",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f279cf&text=宋芳",
+      "product_unit": 11,
+      "product_hot": 569
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "product_price": 30.87,
+      "product_name": "经些先王华",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2f1&text=潘娟",
+      "product_unit": 3,
+      "product_hot": 168
+    },
+    {
+      "id": 21,
+      "categoryId": 2,
+      "product_price": 250.78,
+      "product_name": "律列这可",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2ce79&text=孙霞",
+      "product_unit": 10,
+      "product_hot": 232
+    },
+    {
+      "id": 22,
+      "categoryId": 2,
+      "product_price": 490.33,
+      "product_name": "手分气专车",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/ab79f2&text=邹娜",
+      "product_unit": 8,
+      "product_hot": 437
+    },
+    {
+      "id": 23,
+      "categoryId": 1,
+      "product_price": 378.12,
+      "product_name": "进象效克",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f287&text=廖霞",
+      "product_unit": 4,
+      "product_hot": 479
+    },
+    {
+      "id": 24,
+      "categoryId": 2,
+      "product_price": 263.65,
+      "product_name": "求产工常",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2798d&text=白平",
+      "product_unit": 16,
+      "product_hot": 618
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "product_price": 57.32,
+      "product_name": "气且较响",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79b0f2&text=戴丽",
+      "product_unit": 14,
+      "product_hot": 349
+    },
+    {
+      "id": 26,
+      "categoryId": 1,
+      "product_price": 205.47,
+      "product_name": "力研强住",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/d4f279&text=常涛",
+      "product_unit": 10,
+      "product_hot": 542
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "product_price": 139.52,
+      "product_name": "重选约类",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/ec79f2&text=卢强",
+      "product_unit": 20,
+      "product_hot": 760
+    },
+    {
+      "id": 28,
+      "categoryId": 3,
+      "product_price": 169.09,
+      "product_name": "放大进带",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2c9&text=段敏",
+      "product_unit": 19,
+      "product_hot": 460
+    },
+    {
+      "id": 29,
+      "categoryId": 3,
+      "product_price": 56.84,
+      "product_name": "流花般线了",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2a679&text=熊洋",
+      "product_unit": 12,
+      "product_hot": 899
+    },
+    {
+      "id": 30,
+      "categoryId": 2,
+      "product_price": 131.94,
+      "product_name": "县克老制员",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/8279f2&text=韩娟",
+      "product_unit": 15,
+      "product_hot": 554
+    },
+    {
+      "id": 31,
+      "categoryId": 1,
+      "product_price": 179.74,
+      "product_name": "部律容装",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/92f279&text=崔静",
+      "product_unit": 17,
+      "product_hot": 463
+    },
+    {
+      "id": 32,
+      "categoryId": 2,
+      "product_price": 21.58,
+      "product_name": "车外你得",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f279b6&text=史娟",
+      "product_unit": 6,
+      "product_hot": 717
+    },
+    {
+      "id": 33,
+      "categoryId": 3,
+      "product_price": 161.56,
+      "product_name": "之不生广",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79d9f2&text=石涛",
+      "product_unit": 18,
+      "product_hot": 197
+    },
+    {
+      "id": 34,
+      "categoryId": 3,
+      "product_price": 237.67,
+      "product_name": "规八工只",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2e779&text=刘平",
+      "product_unit": 17,
+      "product_hot": 723
+    },
+    {
+      "id": 35,
+      "categoryId": 2,
+      "product_price": 493.72,
+      "product_name": "关历传一",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/c479f2&text=胡军",
+      "product_unit": 18,
+      "product_hot": 82
+    },
+    {
+      "id": 36,
+      "categoryId": 4,
+      "product_price": 411.52,
+      "product_name": "两入济王",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2a0&text=范勇",
+      "product_unit": 20,
+      "product_hot": 560
+    },
+    {
+      "id": 37,
+      "categoryId": 2,
+      "product_price": 354.01,
+      "product_name": "来保联",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f27d79&text=何勇",
+      "product_unit": 13,
+      "product_hot": 168
+    },
+    {
+      "id": 38,
+      "categoryId": 1,
+      "product_price": 407.08,
+      "product_name": "程备必带起",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/7997f2&text=邱敏",
+      "product_unit": 16,
+      "product_hot": 625
+    },
+    {
+      "id": 39,
+      "categoryId": 2,
+      "product_price": 169.52,
+      "product_name": "深资解别",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/bbf279&text=田霞",
+      "product_unit": 18,
+      "product_hot": 609
+    },
+    {
+      "id": 40,
+      "categoryId": 2,
+      "product_price": 382.09,
+      "product_name": "这但属",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f279de&text=文伟",
+      "product_unit": 20,
+      "product_hot": 808
+    },
+    {
+      "id": 41,
+      "categoryId": 1,
+      "product_price": 434.11,
+      "product_name": "南性油按",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f2e2&text=周芳",
+      "product_unit": 5,
+      "product_hot": 414
+    },
+    {
+      "id": 42,
+      "categoryId": 2,
+      "product_price": 357.56,
+      "product_name": "求除些最",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2bf79&text=陈洋",
+      "product_unit": 5,
+      "product_hot": 992
+    },
+    {
+      "id": 43,
+      "categoryId": 2,
+      "product_price": 480.73,
+      "product_name": "教维包且",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/9b79f2&text=苏霞",
+      "product_unit": 19,
+      "product_hot": 33
+    },
+    {
+      "id": 44,
+      "categoryId": 2,
+      "product_price": 161.83,
+      "product_name": "儿明林声",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79f279&text=黎涛",
+      "product_unit": 16,
+      "product_hot": 884
+    },
+    {
+      "id": 45,
+      "categoryId": 1,
+      "product_price": 193.16,
+      "product_name": "最林后置",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/f2799d&text=丁军",
+      "product_unit": 17,
+      "product_hot": 282
+    },
+    {
+      "id": 46,
+      "categoryId": 4,
+      "product_price": 293.77,
+      "product_name": "起日公快",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/79c0f2&text=段秀兰",
+      "product_unit": 3,
+      "product_hot": 496
+    },
+    {
+      "id": 47,
+      "categoryId": 2,
+      "product_price": 320.78,
+      "product_name": "系对行性",
+      "num": 0,
+      "product_img": "http://dummyimage.com/122x122/e3f279&text=谢敏",
+      "product_unit": 17,
+      "product_hot": 771
     }
   ],
   "bannars": [
     {
       "id": 1,
-      "categoryId": 2,
-      "img": "http://dummyimage.com/720x355/d379f2/孟娟&text=5)"
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/dd79f2&text=义"
     },
     {
       "id": 2,
-      "categoryId": 2,
-      "img": "http://dummyimage.com/720x355/79f2af/万静&text=5)"
+      "categoryId": 1,
+      "img": "http://dummyimage.com/720x355/79f2ba&text=必"
     },
     {
       "id": 3,
-      "categoryId": 2,
-      "img": "http://dummyimage.com/720x355/f28c79/熊秀兰&text=5)"
+      "categoryId": 3,
+      "img": "http://dummyimage.com/720x355/f29679&text=率"
     },
     {
       "id": 4,
       "categoryId": 2,
-      "img": "http://dummyimage.com/720x355/7989f2/钱洋&text=5)"
+      "img": "http://dummyimage.com/720x355/797ef2&text=南"
     },
     {
       "id": 5,
-      "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/acf279/谭秀英&text=5)"
+      "categoryId": 4,
+      "img": "http://dummyimage.com/720x355/a2f279&text=东"
     },
     {
       "id": 6,
-      "categoryId": 2,
-      "img": "http://dummyimage.com/720x355/f279cf/杨霞&text=5)"
+      "categoryId": 1,
+      "img": "http://dummyimage.com/720x355/f279c5&text=张"
     },
     {
       "id": 7,
-      "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/79f2f1/贾娟&text=5)"
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/79e8f2&text=江"
     },
     {
       "id": 8,
       "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/f2ce79/郝芳&text=5)"
+      "img": "http://dummyimage.com/720x355/f2d879&text=深"
     },
     {
       "id": 9,
-      "categoryId": 1,
-      "img": "http://dummyimage.com/720x355/aa79f2/赖明&text=5)"
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/b479f2&text=团"
     },
     {
       "id": 10,
       "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/79f287/乔艳&text=5)"
+      "img": "http://dummyimage.com/720x355/79f291&text=果"
     },
     {
       "id": 11,
       "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/f2798e/何平&text=5)"
+      "img": "http://dummyimage.com/720x355/f27984&text=义"
     },
     {
       "id": 12,
-      "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/79b1f2/于超&text=5)"
+      "categoryId": 1,
+      "img": "http://dummyimage.com/720x355/79a7f2&text=由"
     },
     {
       "id": 13,
-      "categoryId": 1,
-      "img": "http://dummyimage.com/720x355/d4f279/曾丽&text=5)"
-    },
-    {
-      "id": 14,
-      "categoryId": 3,
-      "img": "http://dummyimage.com/720x355/ec79f2/彭秀兰&text=5)"
+      "categoryId": 2,
+      "img": "http://dummyimage.com/720x355/caf279&text=只"
     }
   ]
 }

@@ -5,7 +5,7 @@ var data=new Mock.mock({
         //分类id
         'id|+1':1,
         //分类的图片
-        'category_img':'@image(349x349,@color,@cword(3,5))'
+        'category_img':'@image(349x349,@color,@cword)'
     }],
     'products|30-50':[{
         //商品id
@@ -19,7 +19,7 @@ var data=new Mock.mock({
         //数量
         'num':0,
         //商品的图片
-        'product_img':'@image(122x122,@color,@ctitle(2,4))',
+        'product_img':'@image(122x122,@color,@cname)',
         //商品容量
         'product_unit|3-20':3,
         //人气
@@ -32,7 +32,7 @@ var data=new Mock.mock({
         //商品分类id
         'categoryId|1-4':3,
         //图片
-        'img':'@image(720x355,@color,@cname(3,5))'
+        'img':'@image(720x355,@color,@cword)'
     }]
 })
 

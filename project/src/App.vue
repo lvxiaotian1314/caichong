@@ -12,6 +12,7 @@ export default {
   created(){
     //获取分类数据并存本地
     let that=this;
+    //异步转同步，安装babel-polyfill
     this.$http.get(api.host+"/categories").then(res=>{
       that.$store.commit('SAVE_CATEGORIES',res.data)
     })

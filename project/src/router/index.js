@@ -10,8 +10,9 @@ const Cart=resolve =>require(['../pages/Cart/Cart.vue'],resolve)
 //我的菜虫
 const Mine=resolve =>require(['../pages/Mine/Mine.vue'],resolve)
 //百科
-//我的菜虫
 const Baike=resolve =>require(['../pages/Baike/Baike.vue'],resolve)
+//商品列表
+const product=resolve=>require(['../pages/product/product.vue'],resolve)
 Vue.use(Router)
 
 export default new Router({
@@ -35,6 +36,10 @@ export default new Router({
     {
       path:'/Baike',
       component:Baike
+    },
+    {
+      path:'/Product/:id',
+      component:product
     }
   ]
 })

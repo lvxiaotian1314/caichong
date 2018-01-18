@@ -53,7 +53,7 @@
         </nav>
         <!------nav中图导航区-------------->
         <ul class="nav-mid">
-          <li v-for="(item,index) in computedCategories" :key="item.id"><img :src="item.category_img" alt=""></li>
+          <li v-for="(item,index) in computedCategories" :key="item.id" @click="goProduct(item.id)"><img v-lazy="item.category_img" alt=""></li>
         </ul>
         <!-----------nav大图导航区---------------------->
         <ul class="nav-max">
@@ -75,8 +75,12 @@ export default {
   },
   computed:{
       computedCategories(){
-        console.info(this.$store.state.categories)
         return this.$store.state.categories;
+      }
+  },
+  methods:{
+      goProduct(id){
+        this.$router.push("/product/"+id);
       }
   }
 };
