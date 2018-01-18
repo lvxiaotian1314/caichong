@@ -13,6 +13,9 @@ const Mine=resolve =>require(['../pages/Mine/Mine.vue'],resolve)
 const Baike=resolve =>require(['../pages/Baike/Baike.vue'],resolve)
 //商品列表
 const product=resolve=>require(['../pages/product/product.vue'],resolve)
+//登录
+const Login=resolve=>require(['../pages/Login/Login.vue'],resolve)
+
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +43,10 @@ export default new Router({
     {
       path:'/Product/:id',
       component:product
+    },
+    {
+      path:'/Login',
+      component:Login
     }
   ]
 })

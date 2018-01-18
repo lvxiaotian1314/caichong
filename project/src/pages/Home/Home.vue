@@ -97,7 +97,7 @@ export default {
 nav{
   height: 76px;
   display:flex;
-  background:#fff;
+  //background:#fff;
   padding:10px 0;
   >div{
     flex:76px;

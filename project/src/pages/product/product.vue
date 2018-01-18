@@ -43,6 +43,10 @@ export default {
     created(){
         let id=this.$router.currentRoute.params.id;
         let that=this;
+        this.$loading.open({
+            text: '加载中...',
+            spinnerType: 'fading-circle'
+        });
         async function getData(){
             //获取bannar图
            let result_bannar=await that.$http.get(api.host+"/categories/"+id+"/bannars");
@@ -51,6 +55,7 @@ export default {
            let result_product=await that.$http.get(api.host+"/categories/"+id+"/products");
            that.products=result_product.data;
            that.newProducts=result_product.data;
+           that.$loading.close();
         }
         getData();
        
