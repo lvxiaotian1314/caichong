@@ -15,7 +15,8 @@ const Baike=resolve =>require(['../pages/Baike/Baike.vue'],resolve)
 const product=resolve=>require(['../pages/product/product.vue'],resolve)
 //登录
 const Login=resolve=>require(['../pages/Login/Login.vue'],resolve)
-
+//注册
+const Register=resolve=>require(['../pages/Register/Register.vue'],resolve)
 Vue.use(Router)
 
 export default new Router({
@@ -47,6 +48,10 @@ export default new Router({
     {
       path:'/Login',
       component:Login
+    },
+    {
+      path:'/Register',
+      component:Register
     }
   ]
 })

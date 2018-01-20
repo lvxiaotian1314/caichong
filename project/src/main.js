@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 //导入轮播图
-import { Swipe, SwipeItem ,Lazyload,Indicator} from 'mint-ui';
+import { Swipe, SwipeItem ,Lazyload,Indicator,MessageBox} from 'mint-ui';
 //引入store
 import store from './store'
 //引入axios
@@ -25,6 +25,7 @@ Vue.use(Lazyload)
 Vue.config.productionTip = false;
 Vue.prototype.$loading=Indicator
 Vue.prototype.$http=axios;
+Vue.prototype.$msg=MessageBox;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -2,21 +2,52 @@
     <div class="main">
         <ul class="login">
             <li>
-                <label for="userName">用户名</label><input id="userName" type="text">
+                <label for="userName">用户名</label><input id="userName" type="text" v-model="userName">
             </li>
             <li>
-                <label for="password">密<span class="c-zhan">占</span>码</label><input id="password" type="password">
+                <label for="password">密<span class="c-zhan">占</span>码</label><input id="password" type="password" v-model="password">
             </li>
         </ul>
         <div class="login_btn">
             <a href="" class="register">去注册</a>
-            <div class="Login">马上登陆</div>
+            <div class="Login" @click="login">马上登陆</div>
         </div>
     </div>
 </template>
 <script>
+import api from '@/api'
 export default {
-  
+    data(){
+        return{
+            userName:"",
+            password:""
+        }
+    },
+    methods:{
+        login(){
+            if(this.userName===""){
+                this.$msg("提示","请输入用户名")
+            }
+            else if(this.password===""){
+                this.$msg("提示","请输入密码")
+            }
+            else{
+                let that=this;
+                let userObj={
+                    userName:this.userName,
+                    password:this.password
+                }
+                async function confirmUserName(){
+                    let res=await that.$store.dispatch("submit",userObj);
+                    await that.$msg("提示",res.msg);
+                    if(res.msg==="用户名无效,请注册"){
+                        that.$router.push("/register");
+                    }
+                }
+                confirmUserName()
+            }
+        }
+    }
 }
 </script>
 <style lang="less" scoped>

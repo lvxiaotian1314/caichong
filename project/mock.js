@@ -33,7 +33,10 @@ var data=new Mock.mock({
         'categoryId|1-4':3,
         //图片
         'img':'@image(720x355,@color,@cword)'
-    }]
+    }],
+    //用户数据,
+    //id,userName,password,email,carts
+    'users':[]
 })
 
 fs.writeFile('db.json',JSON.stringify(data,null,2),function(){
