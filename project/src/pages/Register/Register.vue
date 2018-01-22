@@ -15,7 +15,7 @@
             </li>
         </ul>
         <div class="register_btn">
-            <div class="register">立即注册</div>
+            <div class="register" @click="register">立即注册</div>
         </div>
     </div>
 </template>
@@ -25,7 +25,7 @@ export default {
         return {
             userName:"",
             password:"",
-            confirmPassword,
+            confirmPassword:"",
             email:"",
             msg:""
         }
@@ -42,12 +42,54 @@ export default {
                 this.$msg("提示",this.msg);
                 return;
             }
+            //用户名输入不合法
             if(!userNameReg.test(this.userName)){
                 this.msg="用户名输入不符合规则,请重新输入";
                 this.$msg("提示",this.msg);
                 return;
             }
-
+            //密码输入不能为空
+            if(this.password===""){
+                this.msg="请输入密码";
+                this.$msg("提示",this.msg);
+                return;
+            }
+            //密码输入不合法
+            if(!passwordReg.test(this.password)){
+                this.msg="密码输入不符合规则,请重新输入";
+                this.$msg("提示",this.msg);
+                return;
+            }
+            //重复输入密码
+            if(this.confirmPassword===""){
+                this.msg="请再次输入密码";
+                this.$msg("提示",this.msg);
+                return;
+            }
+            //判断两次密码输入是否一致
+            if(this.password!==this.confirmPassword){
+                this.msg="两次密码输入不一致";
+                this.$msg("提示",this.msg);
+                return;
+            }
+            //验证邮箱
+            if(!emailReg.test(this.email)){
+                this.msg="邮箱输入不正确,请重新输入";
+                this.$msg("提示",this.msg);
+                return;
+            }
+            //跳转首页
+            let that=this;
+            async function register() {
+                let obj={
+                    userName:that.userName,
+                    password:that.password,
+                    email:that.email
+                }
+                await that.$store.dispatch("register",obj);
+                 that.$router.push("/");
+            }
+            register();
         }
     }
 }

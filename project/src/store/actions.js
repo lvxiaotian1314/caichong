@@ -26,5 +26,17 @@ export default{
                 }
             }
         })
+    },
+    register(store,obj){
+        console.info(obj);
+        http.post(api.host+"/users",obj).then(res=>{
+            if(res.data.id>0){
+                store.commit("GET_USER",obj)
+                return {"msg":"注册成功"}
+            }
+            else{
+                return {"msg":"注册失败"}
+            }
+        })
     }
 }
